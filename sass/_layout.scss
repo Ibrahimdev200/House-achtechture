@@ -1,0 +1,465 @@
+//////////////////color
+:root{
+    --color--primary:white;
+    --color--primary-1:#F4F9F4;
+    --orange-primary:orangered;
+    
+}
+
+
+
+
+
+
+
+
+
+*{ 
+    padding:0;
+    margin:0;
+ 
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;}
+
+
+
+body{
+  
+   
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    min-height:100vh;
+    line-height: 1.6;
+    background-color: var(--color--primary);
+}
+
+
+
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+
+    &__nav{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        margin: 3rem 8rem;
+
+        
+
+    }
+
+
+    &__logo{
+        font-size: 2rem;
+        color: var(--orange-primary);
+        margin-left: 6rem;
+
+    }
+
+
+    &__list{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        list-style: none;
+        
+
+    }
+
+&__current{
+    border-bottom: var(--orange-primary) solid 2px;
+}
+  
+
+    &__a{
+       margin: auto 2rem;
+       font-size: 1.50rem;
+       text-decoration: none;
+       color: black;
+       font-weight: lighter;
+    
+    
+    }
+
+    &__a:hover{border-bottom: var(--orange-primary) solid 5px;}
+}
+
+
+.base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.content1{
+    display: flex;
+  flex-direction:column;
+    margin: 4rem auto;
+    margin-left: 13rem;
+ 
+  
+    
+    &__head{
+          font-size: 4rem;
+          width: 30rem;
+          margin-bottom: 1rem;
+
+}
+
+
+
+&__paragraph{
+
+ font-size:1.50rem;
+    width: 30rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+
+&__btn{
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.30rem;
+    color: var(--orange-primary);
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+    border: var(--orange-primary) solid 1px;
+    background-color: var(--color--primary);
+    
+
+}
+
+}
+
+.content2{
+    &__img{
+    width: 70rem;
+    height: 40rem;
+    object-fit: cover;
+
+} }
+
+span{
+    color: var(--orange-primary);
+}
+
+
+.content3{
+
+    display: flex;
+ 
+    display: inline-block;
+    margin: 4rem auto;
+    margin-left: 13rem;
+    
+    &__head{
+        font-size: 4rem;
+        width: 40rem;
+        
+
+
+    }
+}
+
+
+   .base1{
+       display: flex; 
+       flex-direction:row;
+       justify-content: flex-end;
+       align-items: center;
+       
+    }
+
+       .content4{ 
+           
+        &__img{
+        display: flex;
+        justify-content:center;
+        align-items: center;
+       width: 28rem;
+       height: 30rem;
+       padding-left: 3.20rem;
+       object-fit: cover;
+
+       :not(:last-child) {
+       margin: 2rem 0;
+       }
+       
+}
+   }
+
+
+   .base2{
+    display: flex; 
+    
+    justify-content: center;
+    align-items: center;
+    background-color: var(--orange-primary);
+    width: 110rem;
+    margin-top: 3rem;
+    margin-left: 13rem;
+    
+    
+ }
+
+   .content5{ 
+           
+    &__img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   width: 15em;
+   height: 20rem;
+   transform: translateX(2rem);
+   object-fit: cover;
+   
+
+    }
+}
+
+.content6{ 
+           
+    &__img{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   width: 15rem;
+   height: 12rem;
+   padding-left: 3.20rem;
+   margin: 2rem;
+   margin-left: 0;
+   object-fit: cover;
+
+
+   
+}
+   
+}
+.content7{ 
+           
+    &__head{
+        font-size: 4rem;
+    }
+
+&__paragraph{
+
+    font-size:1.50rem;
+       width: 70rem;
+       text-align: justify;
+       margin-bottom: 2rem;
+   }
+   
+   
+   &__btn{
+       width: 12rem;
+       height: 4rem;
+       font-size: 1.30rem;
+       color: black;
+       text-transform: uppercase;
+       border: none;
+       background-color: var(--color--primary);
+       cursor: pointer;
+       
+   
+   }
+   
+   }
+
+  
+   .base3{
+    display: flex; 
+    
+    justify-content: center;
+    align-items: center;
+  
+    width: 110rem;
+    margin-top: 3rem;
+    margin-left: 13rem;
+
+    
+}
+
+.content8{
+    display: flex;
+flex-direction: column;
+ margin-right: 4.70rem;
+    
+ 
+  
+    
+    &__head{
+        font-size:4rem ;
+        
+
+}
+
+
+
+&__paragraph{
+ 
+    width: 55rem;
+    font-size: 1.90rem;
+    margin-top: 1.50rem;
+
+   
+
+
+}
+
+
+&__btn{
+    width: 12rem;
+    height: 4rem;
+    font-size: 1.30rem;
+    color:black;
+    text-transform: uppercase;
+    border: none;
+   margin-top: 2rem;
+    background-color: var(--orange-primary);
+    cursor: pointer;
+    
+
+}
+
+}
+
+.content9{
+    &__img{
+    width: 50rem;
+    height: 30rem;
+    object-fit: cover;
+
+} }
+
+.base4{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    
+
+    &__content{
+        font-size:3rem;
+
+    }
+
+    &__paragraph{
+        font-size: 1.50rem;
+       width: 80rem;
+       text-align: center;
+
+    }
+
+    &__span{
+        font-size: 1.80rem;
+
+    }
+
+    &__span-sub{
+        color: black;
+        font-weight: bold;
+    }
+}
+
+
+
+.base5{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+.content10{
+ 
+
+     &__head{
+        
+        margin-right: 96rem;
+        margin-bottom: 2rem;
+        font-size: 4rem;
+        
+    }
+}
+
+.content11-img{
+    display: flex; 
+
+
+    &__img{
+        width: 35.20rem;
+        height: 25rem;
+        margin: auto 1rem;
+        object-fit: cover;
+     
+      
+    }
+}
+
+
+
+
+
+.container2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.062);
+    height: 10rem;
+    margin-top: 5rem;
+
+    &__nav{
+        display: flex;
+        justify-content:space-between;
+        align-items:center;
+        margin: 4rem 9rem;
+
+        
+
+    }
+
+
+    &__logo{
+        font-size: 2rem;
+        color: var(--orange-primary);
+        margin-left: 6rem;
+
+    }
+
+
+    &__list{
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        list-style: none;
+        
+
+    }
+
+
+  
+
+    &__a{
+       margin: auto 2rem;
+       font-size: 1.50rem;
+       text-decoration: none;
+       color: black;
+       font-weight: lighter;
+    
+    
+    }
+
+}
